@@ -8,22 +8,39 @@
     <title>New Tab</title>
 </head>
 <body>
-    <div class="date">
+    <div class="topnav" id="myTopnav">
+        <div class="dropdown">
+          <button class="dropbtn">Settings 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="user.html" id="new-name">Try another Username</a>
+            <a href="#">Customize Shortcuts</a>
+            <a href="#">Background Color</a>
+            <a href="#">Clock Format</a>
+            <a href="#">Font Styles</a>      
+          </div>
+        </div> 
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="settings()">&#9776;</a>
     </div>
-    <h1>Hi Rahul!</h1>
-    <div id="quote"></div>
-    <div class="links">
-        <a href="https://www.google.com"><img src="images/google.svg" class="icon"></a>
-        <a href="https://www.gmail.com"><img src="images/gmail.svg" class="icon"></a>
-        <a href="https://drive.google.com"><img src="images/drive.svg" class="icon"></a>
-        <a href="https://www.youtube.com"><img src="images/youtube.svg" class="icon"></a>
-        <a href="https://www.facebook.com"><img src="images/facebook.svg" class="icon"></a>
-        <!-- <br> -->
-        <a href="https://www.github.com"><img src="images/github.svg" class="icon"></a>
-        <a href="https://www.medium.com"><img src="images/medium.svg" class="icon"></a>
-        <a href="https://www.quora.com"><img src="images/quora.svg" class="icon"></a>
-        <a href="https://www.amazon.in"><img src="images/amazon.svg" class="icon"></a>
-        <a href="https://www.spotify.com"><img src="images/spotify.svg" class="icon"></a>
+    <div class="date"></div>
+
+    <div style="clear:both;">
+        <h1>Hi Rahul!</h1>
+        <div id="quote"></div>
+        <div class="links">
+            <a href="https://www.google.com"><img src="images/google.svg" class="icon"></a>
+            <a href="https://www.gmail.com"><img src="images/gmail.svg" class="icon"></a>
+            <a href="https://drive.google.com"><img src="images/drive.svg" class="icon"></a>
+            <a href="https://www.youtube.com"><img src="images/youtube.svg" class="icon"></a>
+            <a href="https://www.facebook.com"><img src="images/facebook.svg" class="icon"></a>
+            <!-- <br> -->
+            <a href="https://www.github.com"><img src="images/github.svg" class="icon"></a>
+            <a href="https://www.medium.com"><img src="images/medium.svg" class="icon"></a>
+            <a href="https://www.quora.com"><img src="images/quora.svg" class="icon"></a>
+            <a href="https://www.amazon.in"><img src="images/amazon.svg" class="icon"></a>
+            <a href="https://www.spotify.com"><img src="images/spotify.svg" class="icon"></a>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
